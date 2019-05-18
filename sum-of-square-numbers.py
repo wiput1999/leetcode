@@ -2,8 +2,10 @@
 LeetCode : Sum of Square Numbers (Easy)
 Python 3
 """
+
+
 class Solution:
-    def judgeSquareSum(self, c: int) -> bool:
+    def judgeSquareSum(self, c):
         count = 0
 
         while count ** 2 <= c:

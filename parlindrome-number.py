@@ -3,8 +3,9 @@ LeetCode : Palindrome Number (Easy)
 Python 3
 """
 
+
 class Solution:
-    def isPalindrome(self, x: 'int') -> 'bool':
+    def isPalindrome(self, x):
         if x < 0:
             return False
 

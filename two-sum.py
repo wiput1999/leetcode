@@ -2,8 +2,10 @@
 LeetCode : Two Sum (Easy)
 Python 3
 """
+
+
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums, target):
         for index, number in enumerate(nums):
             expected = target - number
             if expected in nums:
